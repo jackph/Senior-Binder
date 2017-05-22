@@ -5,7 +5,7 @@ body {
 
 p {
   white-space: pre-line;
-  font-size: 12pt;
+  font-size: 13pt;
 }
 
 a:link,
@@ -17,7 +17,7 @@ a:visited {
 a:hover,
 a:active {
   color: #4C988C;
-  text-decoration: overline underline;
+  text-decoration: none;
 }
 
 .page {
