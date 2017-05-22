@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Rasa');
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	white-space: pre-line;
+	font-size: 12pt;
+}
+
+a:link, a:visited {
+	color: #006D5B;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #4C988C;
+	text-decoration: overline underline;
+}
+
+.page {
+	position: relative;
+	width: 8.5in;
+	height: 11in;
+	border: 1px dashed #000;
+	padding: 0 1in 0 1in;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.header {
+	height: 1in;
+}
+
+.header p {
+	text-align: center;
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 0;
+	padding: .1in;
+}
+
+.body {
+	height: 6.5in;
+}
+
+.body img {
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid grey;
+	max-width: 9in;
+}
+
+.body h1 {
+	margin: 10px 0 0 0;
+	padding-right: 5px;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: grey;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+.center {
+	height: 3in;
+	text-align: center!important;
+	margin-top: 3in;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 1in;
+	left: 0;
+	right: 0;
+}
+
+.footer p {
+	text-align: center;
+	margin-top: .7in;
+	font-size: 13pt;
+}
+
+.banner {
+	font-size: 28pt;
+	font-style: italic;
+	padding: 20px;
+	margin:20px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+@media print 
+{
+   @page
+   {
+    size: letter;
+    size: portrait;
+		margin: 0;
+  }
+	body {
+		margin: 0;
+	}
+	.page {
+		width: auto;
+		height: 10.9in;
+		border: 0;
+		margin: 0;
+	}
+}
