@@ -8,12 +8,14 @@ p {
 	font-size: 12pt;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
 	color: #006D5B;
 	text-decoration: none;
 }
 
-a:hover, a:active {
+a:hover,
+a:active {
 	color: #4C988C;
 	text-decoration: overline underline;
 }
@@ -85,19 +87,17 @@ a:hover, a:active {
 	font-size: 28pt;
 	font-style: italic;
 	padding: 20px;
-	margin:20px;
+	margin: 20px;
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 }
 
-@media print 
-{
-   @page
-   {
-    size: letter;
-    size: portrait;
+@media print {
+	@page {
+		size: letter;
+		size: portrait;
 		margin: 0;
-  }
+	}
 	body {
 		margin: 0;
 	}
